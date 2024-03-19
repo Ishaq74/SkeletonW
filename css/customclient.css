@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Sacramento&display=swap');
+:root {
+  --color1: #1f6f6e;
+  --color2: #96c5c0;
+  --color3: #4EA7D9;
+  --bgimg1: url('img/blue-stripes.webp');
+  --bgimg2: url('img/black-bg.webp');
+  --bgimg3: url('../img/red-background.webp');
+  --bgimg4: url('img/plaine-semnoz-seminaire.webp');
+  --bgimgbanner: url('../img/bg-accueil.webp');
+  --separate-img: url('../img/separation.webp');
+  --f1: Oswald;
+  --f2: Sacramento;
+  --f3: Anton;
+  --f4: Georgia;
+}
+
+.bgc1{background-color: var(--color1);}
+
+.bgc2{background-color: var(--color2);}
+
+.bgc3{background-color: var(--color3);}
+
+.f1{font-family: var(--f1);}
+
+.f2{font-family: var(--f2);}
+
+.f3{font-family: var(--f3);}
+
+.f4{font-family: var(--f4);}
+
+.link1{color: #000000;}
+.link2{color: #fff000;}
+.link3{color: #BA0000;}
+
+.link1:hover {color: #fff000;}
+.link2:hover {color: #BA0000;}
+.link3:hover {color: #000000;}
+
+
+.shdw1 {text-shadow: 3px 3px 0px var(--color1);}
+.shdw2 {text-shadow: 3px 3px 0px var(--color2);}
+.shdw3 {text-shadow: 4px 4px 2px black;}
+.shdw4 {text-shadow: 4px 4px 15px var(--color2);}
+.shdww {text-shadow: 3px 3px 0px #ffffff;}
+.shdwb {text-shadow: 2px 2px 0px black;}
+
+.separate-img {
+  background-image: var(--separate-img);
+  transform: rotate(180deg);
+  background-repeat: repeat-x;
+  background-size:cover;
+  width: 100%;
+  margin-top: -10px;
+  margin-bottom: -15px;
+  min-height: 15px;
+}
+
+.separate-img2 {
+  transform: rotate(180deg);
+  background-repeat: repeat-x;
+  background-size:contain;
+  width: 100%;
+}
+
+.bgimg1{
+  background-image: var(--bgimg1);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+ .bgimg2{
+    background-image: var(--bgimg2);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+   .bgimg3{
+    background-image: var(--bgimg3);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+   .bgimg4{
+    background-image: var(--bgimg4);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }

@@ -1,0 +1,62 @@
+/* Reset des marges et des paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Hero Section avec deux colonnes sur desktop */
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Styles pour les éléments dans les colonnes */
+.content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.image {
+    flex: 1;
+    padding-left: 20px;
+}
+
+/* Styles spécifiques aux éléments */
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media query pour passer à une seule colonne sur les appareils mobiles */
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+    }
+    .content, .image {
+        padding: 0;
+        text-align: center;
+    }
+}

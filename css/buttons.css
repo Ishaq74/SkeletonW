@@ -1,0 +1,68 @@
+.btn1 {
+	color: #000000 !important;
+    font-size: 19px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 13px 40px 13px 40px;
+    border: 3px solid #ffffff;
+	background-color: var(--color1) !important;
+    box-shadow: 2px 2px 2px 2px #000000;
+	margin-top: 15px !important;
+	margin-bottom: 15px !important;
+    overflow: hidden;
+    background: var(--color1);
+    animation: appear 2s;
+	text-decoration: none;
+  width: fit-content;
+}
+
+.btn1:hover {
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.btn2 {
+	color: #000000;
+    font-size: 19px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 13px 40px 13px 40px;
+    border: 3px solid #ffffff;
+	background-color: var(--color2) !important;
+    box-shadow: 2px 2px 2px 2px #000000;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+    overflow: hidden;
+    background: var(--color2);
+    animation: appear 2s;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.btn2:hover {
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.btn3 {
+	color: #000000;
+    font-size: 19px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 13px 40px 13px 40px;
+    border: 3px solid #ffffff;
+	background-color: var(--color3) !important;
+    box-shadow: 2px 2px 2px 2px #000000;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+    overflow: hidden;
+    background: var(--color3);
+    animation: appear 2s;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.btn3:hover {
+  box-shadow: 1px 1px 1px 1px;
+}
