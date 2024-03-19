@@ -1,55 +1,54 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+  <style>
+    :root {
+      --bgimg3: url('img/red-background.webp');
+    }
+    .bgimg3{
+      background-image: var(--bgimg3);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+     }
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 40px;
+    }
+    section.title {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  .verticalalign {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+  }
+  .pall20{padding: 20px;}
+  @media screen and (max-width: 768px) {
+       
+    .content {
+      display: block;
+      margin-right: 0px;
+      margin-left:0px;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  }
+  </style>
     <link rel="stylesheet" href="style.min.css" />
-    <link rel="preload" href="img/red-background.webp" as="image" />
   </head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skeleton</title>
     <meta name="description" content="Un thème wordpress rapide, optimisé et gratuit">
-    <style>
-      :root {
-        --bgimg3: url('img/red-background.webp');
-      }
-      .bgimg3{
-        background-image: var(--bgimg3);
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-       }
-      .content {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        gap: 40px;
-      }
-      section.title {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        gap: 20px;
-      padding-top: 20px;
-      padding-bottom: 0px;
-    }
-    .verticalalign {
-      display: flex;
-      justify-content:center;
-      flex-direction: column;
-    }
-    .pall20{padding: 20px;}
-    @media screen and (max-width: 768px) {
-         
-      .content {
-        display: block;
-        margin-right: 0px;
-        margin-left:0px;
-        padding-right: 15px;
-        padding-left: 15px;
-      }
-    }
-    </style>
 </head>
 <body>
     <header class="bbw">
